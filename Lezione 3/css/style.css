@@ -1,21 +1,43 @@
-header img{
-    width: 150px;
+*{
+    color: #333;
 }
 
-.testo1{
-    background-color: rgba(249, 249, 132, 0.768);
-    color: blue;
+header{
+    text-align: center;
 }
 
-.testo2{
-    color: grey;
+header div img{
+    width: 220px;
 }
 
-.testo3{
+header p, header p strong {
+    color: rgb(5, 120, 106);
+    font-size: 0.9em;
+    background-color: rgba(244, 244, 99, 0.864);
+}
+main{
+    width: 100%;
+}
+
+article{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+figure figcaption{
+    color: #978f8f;
+}
+
+.testo p{
     color: brown;
 }
 
-.subtitle{
-    font-size: 30px;
+.testo a{
+    color: rgb(4, 123, 104);
 }
-
+main div .color{
+    color: rgb(4, 123, 104);
+}
