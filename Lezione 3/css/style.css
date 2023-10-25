@@ -1,0 +1,21 @@
+header img{
+    width: 150px;
+}
+
+.testo1{
+    background-color: rgba(249, 249, 132, 0.768);
+    color: blue;
+}
+
+.testo2{
+    color: grey;
+}
+
+.testo3{
+    color: brown;
+}
+
+.subtitle{
+    font-size: 30px;
+}
+
