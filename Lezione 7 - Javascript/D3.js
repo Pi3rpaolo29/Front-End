@@ -183,18 +183,18 @@ console.log(crewMass)
 */
 i=0;
 while(i<starWarsCharacters.length){
-  if (starWarsCharacters[i].height < 500){
+  if (starWarsCharacters[i].mass < 500){
     console.log("Ship is under loaded");
   }
-  else if (starWarsCharacters[i].height === 500){
+  else if (starWarsCharacters[i].mass === 500){
     console.log("Ship is 500 load");
   }
   else{
-    if(starWarsCharacters[i].height > 1000){
+    if(starWarsCharacters[i].mass > 1000){
       console.log("DANGER! OVERLOAD ALERT: escape from ship now!");
-      if(starWarsCharacters[i].height > 900){
+      if(starWarsCharacters[i].mass > 900){
         console.log("Critical Load: Over 900");
-        if(starWarsCharacters[i].height > 700)
+        if(starWarsCharacters[i].mass > 700)
         console.log("Warning: Load is over 700");
         }        
       }
