@@ -84,7 +84,8 @@
        */
  
        const paintItGreen = function () {
-        document.querySelectorAll("ul").style.background = "red";
+        let ul=document.querySelectorAll("ul");
+        ul.forEach(ele => ele.style.backgroundColor = 'green')
        }
        paintItGreen ()
  
@@ -92,20 +93,33 @@
         Scrivi una funzione che rimuova l'ultima lettera dall'h1 ogni volta che l'utente lo clicca
        */
  
-       const makeItClickable = function () {}
+       const makeItClickable = function () {
+        let h1 = document.querySelector('div > h1')
+        let txt = h1.innerText;
+        txt = txt.slice(0,-1)
+        h1.innerText = txt;
+       }
+       makeItClickable()
  
        /* ESERCIZIO 10
         Crea una funzione che, al click sul footer, riveli l'URL del link interno come contenuto di un alert()
        */
  
-       const revealFooterLink = function () {}
- 
+       const revealFooterLink = function () {
+        let linkFooter = document.querySelector('footer h3 > a');
+        alert(linkFooter);
+       }
+
        /* ESERCIZIO 11
         Crea una funzione che crei una tabella nell'elemento con id "tableArea". 
         La tabella avrà 5 elementi e questa struttura: immagine, nome prodotto, quantità, prezzo
        */
  
-       const generateTable = function () {}
+       const generateTable = function () {
+        let table = document.querySelector("#tableArea");
+        
+        
+       }
  
        /* ESERCIZIO 12
         Crea una funzione che aggiunga una riga alla tabella precedentemente creata e fornisca i dati necessari come parametri

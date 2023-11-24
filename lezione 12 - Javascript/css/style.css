@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(107, 58, 166, 0.632);
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+    font-size: 3em;
+}
+#table {
+    text-align: center;
+}
+
+#table div{
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 0.8em;
+    width: 1em;
+    height: 2em;
+    border: 1px solid #000000;
+    text-align: center;
+    padding-top: 1.5em;
+    margin: 0.5em;
+    color: #000000;
+}

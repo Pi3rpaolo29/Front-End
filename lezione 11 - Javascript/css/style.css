@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+
+form {
+    margin: 3em;
+}
+
+#task{
+    padding: 1em;
+    width: 20em;
+    text-align: center;
+}
+
+#btn{
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+#table{
+    width: 50em;
+    height: 30em;
+    margin-left: 7em;
+    font-size: 2em;
+}
+
+th{
+    padding: 1em 3em 0.5em 3em;
+    font-size: 1.2em;
+}
+td{
+    line-height: 1.6em;
+}
+
+
+/* Fatto con Umberto */
+.completato{
+    color: red;
+    text-decoration: line-through;
+}
